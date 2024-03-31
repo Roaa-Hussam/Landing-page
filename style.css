@@ -61,3 +61,40 @@ a {
   border-radius: 5px;
   background-color: #3882f6;
 }
+.header .img {
+  margin-bottom: 100px;
+}
+
+.container {
+  text-align: center;
+  background-color: #f9faf9;
+}
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 40px;
+}
+
+.box {
+  flex: 1;
+  max-width: 200px;
+}
+
+.box img {
+  border-radius: 8px;
+  border: solid 5px #3882f6;
+}
+
+.box p {
+  color: #a1a4ab;
+  margin-bottom: 100px;
+}
